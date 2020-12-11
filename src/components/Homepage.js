@@ -3,12 +3,11 @@ import React, {useState,useEffect} from 'react';
 //components
 import Heading from './Heading';
 import Unsplash from './Unsplash';
-import Loader from './Loader';
 
 //Dependencies
 import axios from 'axios';
 import styled from 'styled-components'
-import InfiniteScroll from 'react-infinite-scroll-component';
+
 
 
 const ImageWrapper = styled.section`
